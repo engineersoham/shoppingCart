@@ -62,7 +62,7 @@ const Details = ({navigation, route}) => {
               width:20,
               borderRadius:50,
               backgroundColor:'#F9B023'}}>
-              <Text style={{color:'white', alignSelf:'center', fontSize:14}}>3</Text>
+              <Text style={{color:'white', alignSelf:'center', fontSize:14}}>{cart.length}</Text>
               </View>
               </TouchableOpacity>
               
